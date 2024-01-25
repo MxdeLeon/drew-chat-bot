@@ -1,12 +1,20 @@
 import openai
 import time
 import os
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+api_key = config.get('api', 'api_key')
+validation_path = config.get('path', 'validation_JSONL_location')
+training_path = config.get('path', 'training_JSONL_location')
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = api_key
 
 # Path to your JSONL file
-file_path = r'C:\Users\sweet\Documents\GitHub\drew-chat-bot\output.jsonl'
+file_path = training_path
 
 # Function to upload the file
 def upload_file(file_path):
