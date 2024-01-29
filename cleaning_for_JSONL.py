@@ -39,5 +39,5 @@ def process_conversation(input_file, output_file):
         for entry in conversation:
             json.dump(entry, file)
             file.write('\n')
-process_conversation(validation_path, 'validation_ouput.jsonl')
-process_conversation(training_path, 'training_output.jsonl')
+process_conversation(validation_path, 'validation2_ouput.jsonl')
+# process_conversation(training_path, 'training_output.jsonl')

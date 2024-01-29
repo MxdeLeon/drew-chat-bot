@@ -166,3 +166,7 @@ TXTs
 training_output.jsonl
 
 validation_ouput.jsonl
+
+validation2_ouput.jsonl
+
+speedrun_training_output.jsonl

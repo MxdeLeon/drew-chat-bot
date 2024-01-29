@@ -29,4 +29,4 @@ def process_conversation(input_file, output_file):
             file.write('\n')
 
 # You would need to provide the correct file paths as per your system
-process_conversation(training_path, 'training_output.jsonl')
+process_conversation(training_path, 'speedrun_training_output.jsonl')
