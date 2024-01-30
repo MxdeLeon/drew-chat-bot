@@ -12,7 +12,7 @@ for i in range(len(response_lines)):
     conversation.append({"messages": [{"role": "user", "content": request_lines[i].strip()}, {"role": "assistant", "content": response_lines[i].strip()}]})
     
 # Write to JSONL file
-with open('name_training_output.txt', 'w') as file:
+with open('name_training_output.jsonl', 'w') as file:
     for entry in conversation:
         json.dump(entry, file)
         file.write('\n')
