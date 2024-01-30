@@ -37,11 +37,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 "model": MODEL_NAME,
                 "temperature": 0.75,                // Set temperature
                 "max_tokens": 50,               // Set max_tokens
-                "top_p": 0.5,                      // Set top_p
-                "frequency_penalty": 0.3,       // Set frequency_penalty
-                "presence_penalty": 0.7,           // Set presence_penalty
+                "top_p": 0.60,                      // Set top_p
+                "frequency_penalty": 0.15,       // Set frequency_penalty
+                "presence_penalty": 0.5,           // Set presence_penalty
                 "messages": [
-                    {"role": "system", "content": "You are a conversational educator whose name is Drew-Bot"},
+                    {"role": "system", "content": "You are an educator named Drew-Bot"},
                     {"role": "user", "content": inputValue}
                 ]
             })
