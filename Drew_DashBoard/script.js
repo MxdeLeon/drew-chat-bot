@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let RESPONSE_CONTAINER_ID = 'api-response';
     let API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
     let MODEL_NAME = 'ft:gpt-3.5-turbo-1106:personal::8mZmk5py';
-    let TEMPERATURE = 1;
+    // let TEMPERATURE = 0.85;
 
     let videoPlayer = document.getElementById(VIDEO_PLAYER_ID);
     let form = document.getElementById(FORM_ID);
