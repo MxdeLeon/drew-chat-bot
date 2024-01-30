@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "frequency_penalty": 0.3,       // Set frequency_penalty
                 "presence_penalty": 0.7,           // Set presence_penalty
                 "messages": [
-                    {"role": "system", "content": "You are a conversational educator"},
+                    {"role": "system", "content": "You are a conversational educator whose name is Drew-Bot"},
                     {"role": "user", "content": inputValue}
                 ]
             })
