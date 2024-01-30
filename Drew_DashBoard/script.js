@@ -35,12 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             body: JSON.stringify({
                 "model": MODEL_NAME,
-                "temperature": 1,                // Set temperature
-                "max_tokens": 256,               // Set max_tokens
-                "top_p": 1,                      // Set top_p
-                "frequency_penalty": 0.75,       // Set frequency_penalty
-                "presence_penalty": 0,           // Set presence_penalty
+                "temperature": 0.75,                // Set temperature
+                "max_tokens": 50,               // Set max_tokens
+                "top_p": 0.5,                      // Set top_p
+                "frequency_penalty": 0.3,       // Set frequency_penalty
+                "presence_penalty": 0.7,           // Set presence_penalty
                 "messages": [
+                    {"role": "system", "content": "You are a conversational educator"},
                     {"role": "user", "content": inputValue}
                 ]
             })
