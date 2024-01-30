@@ -4,9 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let INPUT_ID = 'ml-input';
     let RESPONSE_CONTAINER_ID = 'api-response';
     let API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-    let AUTH_TOKEN =
-    let MODEL_NAME = 'gpt-3.5-turbo';
-    let TEMPERATURE = 0.9;
+    let MODEL_NAME = 'ft:gpt-3.5-turbo-1106:personal::8mZmk5py';
+    let TEMPERATURE = 1;
 
     let videoPlayer = document.getElementById(VIDEO_PLAYER_ID);
     let form = document.getElementById(FORM_ID);
@@ -20,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function handleSubmit(event) {
         event.preventDefault();
         let inputValue = input.value.trim();
+        console.log(inputValue)
         if (inputValue !== '') {
             sendRequest(inputValue);
             input.value = '';
@@ -31,34 +31,52 @@ document.addEventListener("DOMContentLoaded", function() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': AUTH_TOKEN
+                'Authorization': 'Bearer ' + AUTH_TOKEN
             },
             body: JSON.stringify({
                 "model": MODEL_NAME,
-                "temperature": TEMPERATURE,
-                "prompt": inputValue
+                "temperature": 1,                // Set temperature
+                "max_tokens": 256,               // Set max_tokens
+                "top_p": 1,                      // Set top_p
+                "frequency_penalty": 0.75,       // Set frequency_penalty
+                "presence_penalty": 0,           // Set presence_penalty
+                "messages": [
+                    {"role": "user", "content": inputValue}
+                ]
             })
         })
         .then(handleResponse)
+        .then(
+            displayResponse
+        )
         .catch(handleError);
-    }
+    }    
 
     function handleResponse(response) {
+        console.log(response)
         if (response.ok) {
-            return response.json().then(displayResponse);
+            console.log("it's ok")
+            return response.json()
         } else {
-            throw new Error('Network response was not ok');
+            // Handle HTTP errors
+            response.text().then(text => {
+                throw new Error(`API Error: ${response.status} ${response.statusText} - ${text}`);
+            });
         }
     }
 
     function displayResponse(data) {
-        let response = data.choices && data.choices.length > 0 ? data.choices[0].text : 'No response received.';
+        console.log(data)
+        let response = data.choices.length > 0 ? data.choices[0].message.content : 'No response received.';
         let paragraph = document.createElement('p');
+        console.log(response)
         paragraph.textContent = response;
         responseContainer.appendChild(paragraph);
     }
 
     function handleError(error) {
+        // Display and log the error for better diagnostics
+        console.error('Request Failed:', error);
         displayResponse('Error: ' + error.message);
     }
 });
