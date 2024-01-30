@@ -1,3 +1,4 @@
+# if you want to convert transcriptions into pandas dataframe to clean it
 import pandas as pd
 import json
 
