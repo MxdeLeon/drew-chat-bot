@@ -7,12 +7,12 @@ This project's objective is to develop a machine-learning-based bot specifically
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [How it Works](#how-it-works)
+- [How it works](#how-it-works)
 - [The Process](#the-process)
 	- [Research](#research)
 	- [Installation](#installation)
 	- [Cleaning](#cleaning)
-	- [Fine-tuning](#fine=tuning)
+	- [Fine-tuning](#fine-tuning)
 	- [Bringing it to life](#bringing-it-to-life)
 - [Presentation](#presentation)	
 - [Acknowledgements](#acknowledgements)
@@ -29,13 +29,13 @@ This project's objective is to develop a machine-learning-based bot specifically
 - **AI/ML:** OpenAI API, Natural Language Processing, GPT Model 3.5, GPT Model 4.0, Babbage
 - **Presentation:** HTML/CSS, JavaScript, Dub Dub, MidJourney, Eleven Labs, DALL-E
 
-## How it Works
+## How it works
 
 - **Data Preprocessing**: Transcripts are cleaned, preprocessed, and formatted according to OpenAI's requirements.
 - **Fine-Tuning**: The bot is fine-tuned using the processed transcripts on OpenAI's models, enhancing its understanding of data science topics.
 - **Inference**: Utilizes the fine-tuned model to interpret and respond to student queries effectively.
 
-## Getting Started
+## The Process
 
 ### Research
 - What data would we use
