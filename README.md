@@ -16,7 +16,7 @@ This project's objective is to develop a machine-learning-based bot specifically
 	- [Bringing it to life](#bringing-it-to-life)
 - [Presentation](#presentation)	
 - [Acknowledgements](#acknowledgements)
-- 
+- [License](#license)	
 
 ## Features
 - **Advanced Contextual Understanding**: Uses OpenAI's models for deep contextual comprehension of data science topics.
