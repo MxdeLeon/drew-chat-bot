@@ -21,11 +21,9 @@ This project's objective is to develop a machine-learning-based bot specifically
 - **Interactive Learning Experience**: Engages students with interactive and responsive discussions.
 
 ## Technologies Used
-- Python 3.x
-- OpenAI API
-- Natural Language Processing Libraries (NLTK, spaCy)
-- Machine Learning Frameworks (TensorFlow, PyTorch)
-- Speech Recognition and Text-to-Speech
+- Cleaning: Python/JSON, Pandas, transkriptor.com, DaVinci Resolve
+- AI/ML: OpenAI API, Natural Language Processing, GPT Model 3.5, GPT Model 4.0, Babbage
+- Presentation: HTML/CSS, JavaScript, Dub Dub, MidJourney, Eleven Labs, DALL-E
 
 ## How it Works
 
