@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             body: JSON.stringify({
                 "model": MODEL_NAME,
-                "temperature": 0.75,                // Set temperature
-                "max_tokens": 50,               // Set max_tokens
-                "top_p": 0.60,                      // Set top_p
+                "temperature": 0.90,                // Set temperature
+                "max_tokens": 100,               // Set max_tokens
+                "top_p": 0.85,                      // Set top_p
                 "frequency_penalty": 0.15,       // Set frequency_penalty
-                "presence_penalty": 0.5,           // Set presence_penalty
+                "presence_penalty": 0,           // Set presence_penalty
                 "messages": [
-                    {"role": "system", "content": "You are an educator named Drew-Bot"},
+                    {"role": "system", "content": "You are a programming educator named Drew-Bot"},
                     {"role": "user", "content": inputValue}
                 ]
             })
