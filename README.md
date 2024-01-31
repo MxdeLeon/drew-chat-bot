@@ -10,11 +10,13 @@ This project's objective is to develop a machine-learning-based bot specifically
 - [How it Works](#how-it-works)
 - [The Process](#the-process)
 	- [Research](#research)
-	- [Research](#research)
-	- [Research](#research)
-- [Installation](#installation)
-- [Cleaning](#cleaning)
+	- [Installation](#installation)
+	- [Cleaning](#cleaning)
+	- [Fine-tuning](#fine=tuning)
+	- [Bringing it to life](#bringing-it-to-life)
+- [Presentation](#presentation)	
 - [Acknowledgements](#acknowledgements)
+- 
 
 ## Features
 - **Advanced Contextual Understanding**: Uses OpenAI's models for deep contextual comprehension of data science topics.
@@ -23,9 +25,9 @@ This project's objective is to develop a machine-learning-based bot specifically
 - **Interactive Learning Experience**: Engages students with interactive and responsive discussions.
 
 ## Technologies Used
-- Cleaning: Python/JSON, Pandas, transkriptor.com, DaVinci Resolve
-- AI/ML: OpenAI API, Natural Language Processing, GPT Model 3.5, GPT Model 4.0, Babbage
-- Presentation: HTML/CSS, JavaScript, Dub Dub, MidJourney, Eleven Labs, DALL-E
+- **Cleaning:** Python/JSON, Pandas, transkriptor.com, DaVinci Resolve
+- **AI/ML:** OpenAI API, Natural Language Processing, GPT Model 3.5, GPT Model 4.0, Babbage
+- **Presentation:** HTML/CSS, JavaScript, Dub Dub, MidJourney, Eleven Labs, DALL-E
 
 ## How it Works
 
@@ -36,9 +38,9 @@ This project's objective is to develop a machine-learning-based bot specifically
 ## Getting Started
 
 ### Research
-- How would we create the model
-- Where would we get the data
-- Exploring AI technologies
+- What data would we use
+- How would we train and validate the model
+- Exploring AI technologies to incorporate
 
 ### Installation
    ```sh
@@ -46,21 +48,34 @@ This project's objective is to develop a machine-learning-based bot specifically
    ```
 
 ### Cleaning
-- transcribing data
-- manual test
-- formatting for OpenAI
-- connection to API
+- Transcribe the recordings to text
+- Python to manipulate and output in JSONL
+- Format to OpenAI fine-tuning
+Put image of before and after
 
+### Fine-tuning
+- Create initial machine with class recording data
+- Prompt the machine with questions
+- Change and adjust features in playground
+Put images for good and bad responses
+- Add additional training and validation data
+- Manually creating prompts to train for specific outputs (telling the bot its name is 'Drew')
+- Adjust features until we were happy with responses
+Images of final outputs
+
+### Bringing it to life
+- Connected the bot through API to our dashboard and UI
+- Created a message box to ask the bot questions
+- Used Midjourney and prompts to generate AI images for storytelling
+
+## Presentation
+Youtube Link
 
 ## Acknowledgements
 
-- Drew
+- Our beloved instructor, Drew
 - OpenAI Community
 - Contributors and Open Source Enthusiasts
-
-## Contributors
-
-This project exists thanks to all the people who contribute. 
 
 ## License
 
