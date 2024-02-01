@@ -80,6 +80,10 @@ This project's objective is to develop a machine-learning-based bot specifically
 - Created a message box to ask the bot questions
 - Used Midjourney and prompts to generate AI images for storytelling
 
+**Creating the Drew Bot story with Midjourney**
+
+![Drew Bot](https://github.com/coblehartman/drew-chat-bot/assets/134180762/d4410655-092a-4aa0-be6a-f38f5a1261d1)
+
 ## Presentation
 [Drewbot Presentation](https://www.youtube.com/watch?v=JaY12RhtUx0)
 
