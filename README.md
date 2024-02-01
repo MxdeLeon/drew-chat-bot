@@ -54,11 +54,11 @@ This project's objective is to develop a machine-learning-based bot specifically
 
 **Before Cleaning**
 
-<img src="https://github.com/coblehartman/drew-chat-bot/assets/134180762/dc0b1055-f03a-45f4-9f43-86e7e168f979" alt="Before Cleaning" width="300"/>
+<img src="https://github.com/coblehartman/drew-chat-bot/assets/134180762/dc0b1055-f03a-45f4-9f43-86e7e168f979" alt="Before Cleaning" width="500"/>
 
 **After Cleaning**
 
-<img src="https://github.com/coblehartman/drew-chat-bot/assets/134180762/48c47cc7-68cf-40e2-a0d9-f676c0ff40f3" alt="After Cleaning" width="300"/>
+<img src="https://github.com/coblehartman/drew-chat-bot/assets/134180762/48c47cc7-68cf-40e2-a0d9-f676c0ff40f3" alt="After Cleaning" width="500"/>
 
 ### Fine-tuning
 - Create initial machine with class recording data
