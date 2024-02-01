@@ -65,12 +65,15 @@ This project's objective is to develop a machine-learning-based bot specifically
 - Create initial machine with class recording data
 - Prompt the machine with questions
 - Change and adjust features in playground
-Drew Bot not knowing it's name yet! 
+
+**Drew Bot not knowing its name yet!**
+
 ![Drew Bot thinks its name is Chris](https://github.com/coblehartman/drew-chat-bot/assets/134180762/1b9ec028-9f5a-400e-84b8-e02553f1444c)
+
 - Add additional training and validation data
 - Manually creating prompts to train for specific outputs (telling the bot its name is 'Drew')
 - Adjust features until we were happy with responses
-Images of final outputs
+
 
 ### Bringing it to life
 - Connected the bot through API to our dashboard and UI
