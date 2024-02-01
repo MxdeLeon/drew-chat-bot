@@ -51,10 +51,13 @@ This project's objective is to develop a machine-learning-based bot specifically
 - Transcribe the recordings to text
 - Python to manipulate and output in JSONL
 - Format to OpenAI fine-tuning
-Before Cleaning
-![Before Cleaning](https://github.com/coblehartman/drew-chat-bot/assets/134180762/9b479a6a-09b0-44a2-9ae2-e988ef065310)
-After Cleaning
-![After Cleaning](https://github.com/coblehartman/drew-chat-bot/assets/134180762/4aba73a4-a9f0-4900-8750-48090e6856bf)
+
+**Before Cleaning**
+![Before Cleaning](https://github.com/coblehartman/drew-chat-bot/assets/134180762/dc0b1055-f03a-45f4-9f43-86e7e168f979)
+
+**After Cleaning**
+![After Cleaning](https://github.com/coblehartman/drew-chat-bot/assets/134180762/48c47cc7-68cf-40e2-a0d9-f676c0ff40f3)
+
 
 ### Fine-tuning
 - Create initial machine with class recording data
