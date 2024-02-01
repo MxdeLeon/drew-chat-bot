@@ -69,7 +69,7 @@ Images of final outputs
 - Used Midjourney and prompts to generate AI images for storytelling
 
 ## Presentation
-Youtube Link
+[Drewbot Presentation](https://www.youtube.com/watch?v=JaY12RhtUx0)
 
 ## Acknowledgements
 
